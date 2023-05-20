@@ -1,0 +1,138 @@
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    color:coral;
+    text-align: center;
+    justify-content: center;
+    display: flexbox;
+    margin: 50px;
+    padding-bottom: 20px;
+    
+}
+
+html {
+    background-color:antiquewhite;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+
+.username, .email, .pass {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+    color: darkslategray;
+    font-size: 25px;    
+}
+
+.email-text, .pass-text, .name {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.email-text:hover, .pass-text:hover, .name:hover {
+    cursor: text;
+} 
+
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    border-radius: 5px;
+    border: 20px;
+    align-content: center;
+    justify-content: center;
+    display:flex;
+    margin: auto;
+    
+}
+
+
+.submit {
+    border-radius: 50px;
+    border: none;
+    box-shadow: whitesmoke;
+    font-weight: bold;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    background-color: #18A558;
+    color: black;
+    
+}
+
+.button {
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit:hover {
+    
+    cursor: pointer;
+    
+    border-radius: 20px;
+    border-color: darksalmon;
+    background-color: bisque;
+    
+}
+
+.line {
+    height: 20px;
+    background-color:black;
+    padding: 20px;
+}
+
+
+
+.sign-in {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -120px;
+    margin-bottom: 90px;
+
+}
+
+
+
+.div-footer {
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 20%;
+    color: coral;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+.h1-div {
+    background-color: coral;
+    box-shadow:none;
+    border-radius: 10px;
+    color: black;
+    margin: auto;
+
+    
+
+}
+
+
+fieldset {
+    border-radius: 15px;
+    border-color: coral;
+    margin: auto;
+}
+
+
